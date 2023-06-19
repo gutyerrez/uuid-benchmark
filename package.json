@@ -1,0 +1,25 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "Tests for the project",
+  "type": "module",
+  "author": {
+    "name": "Vinícius Gutierrez da Silva Rocha",
+    "email": "srgutyerrez@gmail.com",
+    "url": "https://github.com/Gutyerrez"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gutyerrez/uuid-benchmark.git"
+  },
+  "engines": {
+    "node": "v20.x.x"
+  },
+  "scripts": {
+    "test:native": "node uuid-native.js",
+    "test:package": "node uuid-package.js"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0"
+  }
+}
